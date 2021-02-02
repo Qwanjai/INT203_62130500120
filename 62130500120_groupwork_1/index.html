@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Basic Vue Js - HelloWorld App</title>
+
+  <!-- https://google.github.io/material-design-icons/#icon-font-for-the-web -->
+  <!-- Using via Google Web Fonts -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+  <!-- https://tailwindcss.com/docs/installation -->
+  <!-- Using Tailwind via CDN -->
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+
+  <!-- https://v3.vuejs.org/guide/installation.html#release-notes -->
+  <!-- Vue CDN -->
+  <script src="https://unpkg.com/vue@next"></script>
+
+</head>
+
+<body>
+<div class="grid grid-cols-3 gap-2 h-12 mt-12 ">
+  <div class=" bg-white">
+    <img src="https://www.hackerrank.com/wp-content/uploads/2018/08/hackerrank_logo.png" class="ml-52 w-40 pt-2">
+  </div>
+  <div class="bg-white"></div>
+  <div class=" bg-white">
+  <a href="#" class="ml-36 py-4 pr-5">Login</a>
+  <button class="px-6 py-1 border border-green-900 rounded-sm">Sign Up</button>
+  </div>
+</div>
+  <div class="grid grid-rows-2 grid-cols-2  pt-6 bg-white">
+  <div class=" row-span-4 ">
+  <div class="text-5xl ml-52 mt-12 text-gray-400">Matching developers<br>with great companies.</div>
+  <div class="grid grid-rows-2 grid-cols-2 gap-2 ml-52 pt-16 ">
+<div class="grid grid-rows-3 gap-2 ">
+  <div class=" font-mono text-3xl font-bold">
+For Companies
+  </div>
+  <div>
+    <p>We are the market-leading technical interview platform to identify and hire developers in a remote first world.</p>
+  </div>
+  <div class=" text-left">
+    <button class="px-6 py-1 font-mono text-xl text-white font-bold bg-green-500 rounded">Start Remote Hiring</button>
+  </div>
+  
+  </div>
+  <div class="grid grid-rows-3 gap-2 ">
+    <div class="font-mono text-3xl font-bold">
+      For Developers
+    </div>
+    <div>
+      <p>Join over 11 million developers, practice coding skills, prepare for interviews, and get hired.</p>
+    </div>
+    <div class=" text-left">
+      <button class="px-6 py-1 font-mono text-xl text-green-500 font-bold border border-green-500 rounded bg-white">Sign Up & Code</button>
+    </div>
+    </div>
+  </div>  
+</div>
+ <div class=" h-96">
+   <img src="images/pic.PNG" class="float-right w-full">
+ </div>
+  </div>
+
+
+
+
+  <!-- my main.js -->
+  <script src="./main.js"></script>
+</body>
+
+</html>
